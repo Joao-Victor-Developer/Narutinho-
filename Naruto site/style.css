@@ -1,0 +1,86 @@
+.imagem1{
+  height: 500px;
+  width: 1200px;
+  margin-left: 330px;
+}
+
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+
+}
+p{
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: blue;
+  font-size: 40px;
+}
+footer{
+  margin-top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  background-color: chocolate;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+body{
+  background-image: url(src/img/naruto.gif);
+  background-size: cover;
+  width: 100%;
+}
+
+.flex-container
+
+
+.main{
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  
+}
+li{
+  display: inline;
+  float: left;
+  width: 200px;
+  border-right: 1px solid #f30000;
+}
+li:last-child{
+  border-right: none;
+}
+.active{
+  background-color: rgb(19, 181, 76);
+}
+li a {
+  display: block;
+  color: blueviolet;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+li a:hover{
+  background-color: brown;
+}
+a{
+  display: block;
+  padding: 8px;
+  background-color: aqua;
+}
+ul{
+  background-color: bisque;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aquamarine;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
